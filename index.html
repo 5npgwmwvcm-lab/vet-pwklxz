@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFF4EB">
+    <meta name="description" content="Ветеринарная клиника pwklxz: заботимся о кошках, собаках и экзотических питомцах.">
+    <title>pwklxz — ветеринарная клиника</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="i-paw" viewBox="0 0 48 48"><path d="M24 25c-5.8 0-13 6.2-13 11.6 0 4 3.2 6.4 7.3 5.2 3.7-1.1 7.7-1.1 11.4 0 4.1 1.2 7.3-1.2 7.3-5.2C37 31.2 29.8 25 24 25Z"/><ellipse cx="9.5" cy="21" rx="4.7" ry="6.1" transform="rotate(-24 9.5 21)"/><ellipse cx="20" cy="13.8" rx="4.7" ry="6.1" transform="rotate(-8 20 13.8)"/><ellipse cx="30" cy="13.8" rx="4.7" ry="6.1" transform="rotate(8 30 13.8)"/><ellipse cx="38.5" cy="21" rx="4.7" ry="6.1" transform="rotate(24 38.5 21)"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 48 48"><path d="M24 40S6 29 6 16.8C6 7.4 18.1 4.7 24 14c5.9-9.3 18-6.6 18 2.8C42 29 24 40 24 40Z"/><path d="M11 24h8l3-6 5 13 3-7h7"/></symbol>
+      <symbol id="i-medical" viewBox="0 0 48 48"><path d="M18 7h12v11h11v12H30v11H18V30H7V18h11z"/></symbol>
+      <symbol id="i-scan" viewBox="0 0 48 48"><rect x="7" y="9" width="34" height="30" rx="5"/><path d="M14 31c4-11 7 11 11 0s7 11 10 0"/></symbol>
+      <symbol id="i-tooth" viewBox="0 0 48 48"><path d="M24 9c-5-4-15-2-15 9 0 6 3 19 8 21 4 2 4-10 7-10s3 12 7 10c5-2 8-15 8-21 0-11-10-13-15-9Z"/></symbol>
+      <symbol id="i-syringe" viewBox="0 0 48 48"><path d="m13 35 20-20 7 7-20 20H13zM27 13l8 8M23 17l8 8M9 39l-3 3M35 9l4-4M30 14l4-4M11 32l5 5"/></symbol>
+      <symbol id="i-lab" viewBox="0 0 48 48"><path d="M18 7h12M21 7v14L10 38h28L27 21V7M15 31h18"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 48 48"><path d="M24 5 40 11v12c0 10-7 16-16 20C15 39 8 33 8 23V11z"/><path d="m17 24 5 5 10-11"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M24 13v12l8 5"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 48 48"><circle cx="24" cy="24" r="9"/><path d="M24 3v6M24 39v6M3 24h6M39 24h6M9.2 9.2l4.3 4.3m21 21 4.3 4.3m0-29.6-4.3 4.3m-21 21-4.3 4.3"/></symbol>
+      <symbol id="i-leaf" viewBox="0 0 48 48"><path d="M40 8C22 8 10 12 8 26c-1 8 5 13 13 12C35 36 40 23 40 8Z"/><path d="M8 42c7-12 15-18 25-25"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    </svg>
+
+    <!-- Декоративные силуэты остаются частью прокручиваемого фона. -->
+    <div class="cat-silhouettes" aria-hidden="true">
+      <svg class="cat-shape cat-shape-one" viewBox="0 0 300 340"><path d="M51 128 38 27l82 53c22-7 43-7 64 0l82-53-13 101c16 23 24 49 24 78 0 72-54 119-125 119S27 278 27 206c0-29 8-55 24-78Zm56 64a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm86 0a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm-92 45c18 20 35 30 49 30s31-10 49-30"/></svg>
+      <svg class="cat-shape cat-shape-two" viewBox="0 0 300 340"><path d="M51 128 38 27l82 53c22-7 43-7 64 0l82-53-13 101c16 23 24 49 24 78 0 72-54 119-125 119S27 278 27 206c0-29 8-55 24-78Zm56 64a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm86 0a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm-92 45c18 20 35 30 49 30s31-10 49-30"/></svg>
+      <svg class="cat-shape cat-shape-three" viewBox="0 0 300 340"><path d="M51 128 38 27l82 53c22-7 43-7 64 0l82-53-13 101c16 23 24 49 24 78 0 72-54 119-125 119S27 278 27 206c0-29 8-55 24-78Zm56 64a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm86 0a15 15 0 1 0 0-30 15 15 0 0 0 0 30Zm-92 45c18 20 35 30 49 30s31-10 49-30"/></svg>
+    </div>
+    <aside class="portfolio-watermark" aria-label="Demo Concept/Portfolio"><span>Demo Concept/Portfolio</span></aside>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="pwklxz — на главную">pwklxz<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="primary-nav">
+          <svg class="icon menu-open"><use href="#i-menu"/></svg>
+          <svg class="icon menu-close"><use href="#i-close"/></svg>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Основная навигация">
+          <a href="#services">Услуги</a>
+          <a href="#about">О клинике</a>
+          <a href="#team">Врачи</a>
+          <a href="#contacts">Контакты</a>
+          <a class="nav-cta" href="#contacts">Записаться <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Первый экран -->
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Клиника с заботой о каждом</p>
+            <h1>pwklxz<span>.</span></h1>
+            <p class="hero-tagline">Здоровье питомца — <span>наша общая забота</span></p>
+            <p class="hero-description">Ветеринарная клиника для кошек, собак, змей, попугаев и кроликов.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contacts">Записаться на прием <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a class="text-link" href="#services">Наши услуги <span>↓</span></a>
+            </div>
+            <div class="hero-contacts">
+              <a href="tel:+66666666"><span class="contact-label">Позвоните нам</span><strong>+66666666</strong></a>
+              <a href="https://instagram.com/port.folio" target="_blank" rel="noreferrer"><span class="contact-label">Мы в Instagram</span><strong>@port.folio</strong></a>
+            </div>
+            <div class="hero-note"><span class="note-mark">✳</span> Работаем без выходных — рядом, когда нужны</div>
+          </div>
+          <div class="hero-visual">
+            <div class="photo-frame hero-photo">
+              <div class="photo-fallback fallback-cat" role="img" aria-label="Иллюстрация кошки"><span>мур-мур</span></div>
+              <img src="images/cat-1.jpg" alt="Кошка на приеме">
+              <span class="photo-caption"><svg class="icon"><use href="#i-heart"/></svg> забота начинается с внимания</span>
+            </div>
+            <div class="hero-sticker"><svg class="icon"><use href="#i-paw"/></svg><span>Каждому<br>хвостику</span></div>
+            <div class="hero-sparkle sparkle-one">✳</div>
+            <div class="hero-sparkle sparkle-two">✳</div>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>Ваши любимцы в надежных лапах</span><span class="hero-bottom-line"></span><span>01 — 04</span>
+        </div>
+      </section>
+
+      <!-- Услуги -->
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">Чем мы поможем</p><h2>Забота на каждом <span>этапе</span></h2></div>
+            <p class="heading-aside">От первого осмотра до сложного лечения — бережно, понятно и с любовью.</p>
+          </div>
+          <div class="services-layout">
+            <div class="service-grid">
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-heart"/></svg></span><h3>Терапевтический осмотр</h3><p>Консультация и план заботы о здоровье питомца.</p><span class="service-number">01</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-shield"/></svg></span><h3>Вакцинация и чипирование</h3><p>Профилактика, защита и важная отметка для безопасности.</p><span class="service-number">02</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-tooth"/></svg></span><h3>Стоматология</h3><p>Профилактика и лечение зубов и полости рта.</p><span class="service-number">03</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-medical"/></svg></span><h3>Хирургия</h3><p>Операции с вниманием к каждому этапу восстановления.</p><span class="service-number">04</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-scan"/></svg></span><h3>УЗИ и рентген</h3><p>Точная диагностика, чтобы действовать уверенно.</p><span class="service-number">05</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-lab"/></svg></span><h3>Лабораторные анализы</h3><p>Быстрые исследования в собственной лаборатории.</p><span class="service-number">06</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-sun"/></svg></span><h3>Груминг</h3><p>Уход за шерстью и коготками без лишнего стресса.</p><span class="service-number">07</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-clock"/></svg></span><h3>Стационар и интенсивная терапия</h3><p>Наблюдение и поддержка, когда они особенно нужны.</p><span class="service-number">08</span></article>
+              <article class="service-card"><span class="service-icon"><svg class="icon"><use href="#i-leaf"/></svg></span><h3>Дерматология</h3><p>Помогаем разобраться с кожей, шерстью и зудом.</p><span class="service-number">09</span></article>
+              <article class="service-card service-card-exotic"><span class="service-icon"><svg class="icon"><use href="#i-paw"/></svg></span><h3>Экзотические животные</h3><p>Принимаем змей, попугаев, кроликов и других экзотов.</p><span class="service-number">10</span></article>
+            </div>
+            <aside class="service-aside">
+              <div class="photo-frame service-photo">
+                <div class="photo-fallback fallback-dog" role="img" aria-label="Иллюстрация собаки"><span>хороший<br>пациент</span></div>
+                <img src="images/dog-1.jpg" alt="Собака на осмотре">
+              </div>
+              <div class="service-aside-note"><span class="note-mark">✳</span><p>Спокойный прием начинается с доверия. Мы не торопим и объясняем каждый шаг.</p></div>
+            </aside>
+          </div>
+          <div class="inline-photo-strip">
+            <div class="photo-frame inline-photo">
+              <div class="photo-fallback fallback-cat-small" role="img" aria-label="Иллюстрация кошки"><span>уютно</span></div>
+              <img class="inline-photo-image" src="images/snake-1.jpg" alt="Птица на приеме">
+            </div>
+            <p>Профилактика — это тоже любовь. Приходите знакомиться, даже если всё хорошо.</p>
+            <a class="text-link" href="#contacts">Выбрать время <span>→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Почему мы -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading about-heading">
+            <p class="eyebrow">Бережно. Профессионально. По-домашнему.</p>
+            <h2>Почему нам <span>доверяют</span></h2>
+            <p>Мы объединяем современную ветеринарию с простым человеческим теплом. Для нас важно, чтобы спокойно было и питомцу, и его человеку.</p>
+          </div>
+          <div class="about-layout">
+            <div class="reasons-grid">
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-heart"/></svg></span><div><h3>Опытные специалисты</h3><p>Наши врачи — выпускники ведущих ветеринарных вузов с опытом работы от 5 лет. Они регулярно повышают квалификацию, изучают новые методы и работают по современным протоколам. У каждого врача есть своя специализация — от терапии до экзотических животных.</p></div></article>
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-scan"/></svg></span><div><h3>Современное оборудование</h3><p>В клинике есть цифровой рентген, УЗИ экспертного класса, собственная лаборатория, наркозно-дыхательная аппаратура и операционный блок. Это помогает поставить точный диагноз за один визит и проводить операции разной сложности.</p></div></article>
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-paw"/></svg></span><div><h3>Собственный стационар</h3><p>Для пациентов, которым нужен круглосуточный контроль, предусмотрены отдельные боксы и мониторинг состояния. Питомец остается под присмотром команды столько, сколько необходимо.</p></div></article>
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-clock"/></svg></span><div><h3>Работаем без выходных</h3><p>Клиника открыта каждый день, включая праздники. Принимаем плановые визиты и экстренные случаи — если питомцу плохо, мы не оставим вас ждать до понедельника.</p></div></article>
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-leaf"/></svg></span><div><h3>Принимаем экзотов</h3><p>Кошки и собаки — не единственные наши пациенты. Мы лечим змей, попугаев, кроликов и других экзотов: для них предусмотрены отдельные условия и врачи с опытом работы с такими видами.</p></div></article>
+              <article class="reason-card"><span class="reason-icon"><svg class="icon"><use href="#i-shield"/></svg></span><div><h3>Индивидуальный подход</h3><p>Каждый питомец уникален, поэтому мы не работаем по шаблону. Подбираем лечение с учетом возраста, породы, состояния здоровья и особенностей характера животного.</p></div></article>
+            </div>
+            <aside class="about-photos">
+              <div class="photo-frame about-photo about-photo-parrot">
+                <div class="photo-fallback fallback-parrot" role="img" aria-label="Иллюстрация попугая"><span>привет!</span></div>
+                <img src="images/parrot-1.jpg" alt="Попугай на консультации">
+              </div>
+              <div class="photo-frame about-photo about-photo-rabbit">
+                <div class="photo-fallback fallback-rabbit" role="img" aria-label="Иллюстрация кролика"><span>пушистик</span></div>
+                <img src="images/rabbit-1.jpg" alt="Кролик в клинике">
+              </div>
+              <div class="about-quote"><span>“</span><p>Здесь каждого встречают как своего.</p><small>Наш подход к заботе</small></div>
+            </aside>
+          </div>
+          <div class="about-extra-photos">
+            <div class="photo-frame extra-photo">
+              <div class="photo-fallback fallback-dog" role="img" aria-label="Иллюстрация собаки"><span>всё хорошо</span></div>
+              <img src="images/dog-2.jpg" alt="Собака на осмотре">
+            </div>
+            <div class="photo-frame extra-photo">
+              <div class="photo-fallback fallback-rabbit" role="img" aria-label="Иллюстрация кролика"><span>маленький друг</span></div>
+              <img src="images/rabbit-2.jpg" alt="Кролик в клинике">
+            </div>
+            <p>Забота — это не только лечение. Это еще и безопасная среда, терпение и внимание к мелочам.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Команда -->
+      <section class="section team-section" id="team">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">Знакомьтесь, мы</p><h2>Люди, которые <span>любят животных</span></h2></div>
+            <p class="heading-aside">Внимательные врачи, которым можно доверить самое дорогое.</p>
+          </div>
+          <div class="team-grid">
+            <article class="doctor-card"><div class="doctor-portrait portrait-one"><span>АН</span><i>✳</i></div><div class="doctor-info"><p class="doctor-role">Главный врач · терапевт</p><h3>Анна Новикова</h3><p>Помогает найти общий язык даже с самыми тревожными пациентами.</p></div></article>
+            <article class="doctor-card"><div class="doctor-portrait portrait-two"><span>МП</span><i>✳</i></div><div class="doctor-info"><p class="doctor-role">Хирург · стоматолог</p><h3>Максим Петров</h3><p>Проводит диагностику и операции с вниманием к деталям.</p></div></article>
+            <article class="doctor-card"><div class="doctor-portrait portrait-three"><span>ЕС</span><i>✳</i></div><div class="doctor-info"><p class="doctor-role">Врач по экзотическим животным</p><h3>Елена Смирнова</h3><p>Знает, как сделать визит комфортным для пернатых и пушистых.</p></div></article>
+            <article class="doctor-card"><div class="doctor-portrait portrait-four"><span>ИК</span><i>✳</i></div><div class="doctor-info"><p class="doctor-role">Диагност · врач УЗИ</p><h3>Илья Ковалёв</h3><p>Объясняет результаты исследований простыми словами.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Контакты и форма записи -->
+      <section class="section contact-section" id="contacts">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Будем рады знакомству</p>
+            <h2>Пусть питомцу <span>будет хорошо</span></h2>
+            <p class="contact-intro">Оставьте заявку — мы свяжемся с вами и подберем удобное время.</p>
+            <div class="contact-details">
+              <a href="tel:+66666666"><span>Телефон</span><strong>+66666666</strong></a>
+              <a href="https://instagram.com/port.folio" target="_blank" rel="noreferrer"><span>Instagram</span><strong>@port.folio</strong></a>
+              <div><span>Режим работы</span><strong>Без выходных</strong></div>
+            </div>
+            <div class="photo-frame snake-photo">
+              <div class="photo-fallback fallback-snake" role="img" aria-label="Иллюстрация змеи"><span>бережный уход</span></div>
+              <img class="snake-photo-image" src="images/cat-2.jpg" alt="Кошка на приеме">
+              <span class="snake-caption">Принимаем необычных друзей</span>
+            </div>
+          </div>
+          <form class="appointment-form">
+            <div class="form-heading"><span class="form-icon"><svg class="icon"><use href="#i-paw"/></svg></span><div><h3>Записаться на прием</h3><p>Заполните форму — это займет минуту</p></div></div>
+            <label>Ваше имя<input name="name" type="text" autocomplete="name" placeholder="Например, Мария" required></label>
+            <label>Телефон<input name="phone" type="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required></label>
+            <div class="form-row">
+              <label>Питомец<select name="pet" required><option value="" disabled selected>Выберите</option><option>Кошка</option><option>Собака</option><option>Кролик</option><option>Попугай</option><option>Змея</option><option>Другой питомец</option></select></label>
+              <label>Услуга<select name="service" required><option value="" disabled selected>Выберите</option><option>Терапевтический осмотр</option><option>Вакцинация</option><option>Стоматология</option><option>Хирургия</option><option>Диагностика</option><option>Другое</option></select></label>
+            </div>
+            <button class="button button-primary form-submit" type="submit">Отправить заявку <svg class="icon"><use href="#i-arrow"/></svg></button>
+            <p class="form-privacy">Нажимая кнопку, вы соглашаетесь на обратный звонок для подтверждения записи.</p>
+            <p class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div class="footer-brand"><a class="brand" href="#home">pwklxz<span>.</span></a><p>Заботимся о тех,<br>кто делает нас счастливее.</p></div>
+        <div class="footer-links"><a href="#services">Услуги</a><a href="#about">О клинике</a><a href="#team">Врачи</a><a href="#contacts">Контакты</a></div>
+        <div class="footer-contact"><a href="tel:+66666666">+66666666</a><a href="https://instagram.com/port.folio" target="_blank" rel="noreferrer">@port.folio</a><span>Открыты без выходных</span></div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year">2026</span> pwklxz. Все хвостики важны.</span><a href="#home">Наверх ↑</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
